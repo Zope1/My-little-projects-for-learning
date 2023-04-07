@@ -1,0 +1,30 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+
+  int x;
+  int number;
+  int answer;
+
+  answer = 1;
+  
+  //Requesting input
+  
+  printf("Please input the number: ");
+  scanf("%d", &number);
+  
+  //Calculating
+  
+  for(x=1;x<=number;x++)
+  {
+    answer = answer * x; 
+  }
+  
+  //Printing
+  
+  printf("Answer: %d\n", answer);
+
+  
+    return 0;
+}
